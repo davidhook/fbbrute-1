@@ -9,7 +9,7 @@ def check():
 	pass
  return False
 check = check()
-
+      .. DAVID Facebook Hacking Tools ..
 parse = optparse.OptionParser('''./tamilan.py -t <example@gmail.com> -w <name of the wordlist>
 OPTIONS:
 	-T <target email>  --->> victims mailid 
