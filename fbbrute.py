@@ -35,7 +35,7 @@ def Main():
 					     br1=mechanize.Browser()
                 		             br1.set_handle_robots(False)
                                              br1.addheaders=[('User-agent', "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36")]
-                		             op=br1.open("https://facebook.com")
+                		             op=br1.open("https://facebook.com/hacked")
                 		             dos1=open("Facebook-Log.txt","w+")		
                 	                     br1.select_form(nr=0)
 					     br1.form["email"]=user
